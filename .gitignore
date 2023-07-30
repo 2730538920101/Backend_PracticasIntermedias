@@ -1,0 +1,42 @@
+.env
+.venv# Archivos de entorno y configuración
+.env
+*.pyc
+*.pyo
+__pycache__/
+
+# Directorio de dependencias de Python (si utilizas venv)
+.venv
+
+# Archivo de registro (log) y archivos generados
+*.log
+*.log.*
+logs/
+*.gz
+*.db
+*.sqlite3
+
+# Archivos de caché y respaldo
+*.cache
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Archivos de compilación de Python
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de IDE (específicos de un editor/IDE en particular)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de respaldo del editor
+*~
